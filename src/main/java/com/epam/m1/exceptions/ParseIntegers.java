@@ -26,7 +26,7 @@ public class ParseIntegers {
                 sum = sum + number;
             }
             catch (NumberFormatException e){
-                justWords = justWords + " " + next;
+                justWords = justWords+" "+next;
             }
 
         }
